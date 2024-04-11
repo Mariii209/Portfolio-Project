@@ -1,11 +1,52 @@
-h1 {
+.profile {
+  text-align: center;
+  margin: 20px auto;
+  max-width: 270px;
+  background: #fdefe9;
+  padding-top: 45px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 28px;
+  margin: 0;
   font-family: "Roboto", sans-serif;
 }
 
-p {
-  font-family: "Montserrat", sans-serif;
+.profile p {
+  font-weight: 700;
+  color: #f3ad88;
 }
 
-.hello-world {
-  background-color: #ffc007;
+.profile h2 {
+  font-size: 15px;
+  margin-bottom: 45px;
+}
+.profile a {
+  color: black;
+}
+
+.img-container {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 20px;
+}
+
+img {
+  width: 100%;
+  height: 100% !important;
+  object-fit: cover;
+}
+
+footer {
+  background: white;
+  padding: 4px;
 }
