@@ -1,8 +1,12 @@
+:root {
+  --primary-color: #fdefe9;
+}
+
 .profile {
   text-align: center;
   margin: 20px auto;
   max-width: 270px;
-  background: #fdefe9;
+  background: var(--primary-color);
   padding-top: 45px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
